@@ -380,14 +380,14 @@ export default function Home() {
         <div>
           <h1 className={styles.title}>Welcome to Crypto Wancash ICO!</h1>
           <div className={styles.description}>
-            You can claim or mint Crypto Dev tokens here
+            You can claim or mint Crypto Wancash tokens here
           </div>
           {walletConnected ? (
             <div>
               <div className={styles.description}>
                 {/* Format Ether helps us in converting a BigNumber to string */}
                 You have minted {utils.formatEther(balanceOfCryptoDevTokens)}{" "}
-                Crypto Dev Tokens
+                Wancash Gold Token
               </div>
               <div className={styles.description}>
                 {/* Format Ether helps us in converting a BigNumber to string */}
